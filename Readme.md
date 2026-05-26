@@ -16,41 +16,17 @@ The framework combines biologically informed descriptors with modern machine lea
 
 ---
 
-# Repository Structure
+## External Dependencies
 
-```text
-ICM-MD/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── msa/
-│   ├── embeddings/
-│   ├── ccmpred/
-│   ├── esmfold/
-│   └── md_features/
-│
-├── models/
-│   ├── checkpoints/
-│   └── trained_models/
-│
-├── scripts/
-│   ├── feature_extraction/
-│   ├── preprocessing/
-│   ├── training/
-│   ├── evaluation/
-│   └── utilities/
-│
-├── notebooks/
-│
-├── configs/
-│
-├── environment/
-│   └── icm_md.yml
-│
-├── results/
-│
-├── README.md
-└── LICENSE
+The following tools/databases must be installed separately.
+
+| Tool            | Purpose                                        |
+| --------------- | ---------------------------------------------- |
+| HHblits         | Multiple sequence alignment generation         |
+| UniRef/UniClust | Sequence database for HHblits                  |
+| MMseqs2         | Sequence clustering and fast similarity search |
+| CCMpred         | Coevolutionary coupling prediction             |
+| ESMFold         | Coevolutionary coupling prediction             |
+
 
 
