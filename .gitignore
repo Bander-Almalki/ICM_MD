@@ -1,0 +1,5 @@
+# Ignore heavy folders
+Data/
+Features/
+CCMpred/
+CMpred_outputs/
