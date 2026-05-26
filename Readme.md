@@ -29,5 +29,5 @@ The following tools/databases must be installed separately.
 | ESMFold         | Coevolutionary coupling prediction             |
 
 ### Installing HH-suite (HHblits)
-'''https://github.com/soedinglab/hh-suite'''
+''' https://github.com/soedinglab/hh-suite '''
 
